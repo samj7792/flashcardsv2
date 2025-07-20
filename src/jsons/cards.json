@@ -1,0 +1,42 @@
+{
+  "topics": {
+    "verbs": [
+      {
+        "id": 1,
+        "name": "laufen",
+        "translation": "to run"
+      },
+      {
+        "id": 2,
+        "name": "gehen",
+        "translation": "to go"
+      }
+    ],
+    "nouns": [
+      {
+        "id": 1,
+        "article": "die",
+        "name": "Katze",
+        "translation": "cat"
+      },
+      {
+        "id": 2,
+        "article": "der",
+        "name": "Hund",
+        "translation": "dog"
+      }
+    ],
+    "adjectives": [
+      {
+        "id": 1,
+        "name": "schnell",
+        "translation": "fast"
+      },
+      {
+        "id": 2,
+        "name": "langsam",
+        "translation": "slow"
+      }
+    ]
+  }
+}
