@@ -48,16 +48,6 @@ export default function Homepage() {
               ))}
             </>
           )}
-          <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
-            <Card
-              onClick={() => {
-                setTopics(Object.keys(data.topics));
-                setTopicDatas(null);
-              }}
-            >
-              Back to Topics
-            </Card>
-          </Link>
         </div>
       </div>
       <Footer />

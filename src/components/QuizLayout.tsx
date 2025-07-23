@@ -21,14 +21,12 @@ export default function QuizLayout({ topicDatas }: QuizLayoutProps) {
     }, 1000);
     console.log(`Updated quiz data:`, quizData);
   };
-  // on hover show the translation of the card
-  const handleHover = (data: TopicData) => {
-    console.log(`Card hovered:`, data);
-    // Here you can implement the logic to show the translation or any other action
-    setTranslation(data.translation);
-  };
+
   // only show one card at a time
-  const currentCard = quizData.length > 0 ? quizData[0] : null;
+  const currentCard =
+    quizData.length > 0
+      ? quizData[Math.floor(Math.random() * quizData.length)]
+      : null;
 
   return (
     <div className="QuizLayout">

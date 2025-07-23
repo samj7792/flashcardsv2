@@ -10,6 +10,71 @@
         "id": 2,
         "name": "gehen",
         "translation": "to go"
+      },
+      {
+        "id": 3,
+        "name": "sehen",
+        "translation": "to see"
+      },
+      {
+        "id": 4,
+        "name": "essen",
+        "translation": "to eat"
+      },
+      {
+        "id": 5,
+        "name": "trinken",
+        "translation": "to drink"
+      },
+      {
+        "id": 6,
+        "name": "schlafen",
+        "translation": "to sleep"
+      },
+      {
+        "id": 7,
+        "name": "lesen",
+        "translation": "to read"
+      },
+      {
+        "id": 8,
+        "name": "schreiben",
+        "translation": "to write"
+      },
+      {
+        "id": 9,
+        "name": "sprechen",
+        "translation": "to speak"
+      },
+      {
+        "id": 10,
+        "name": "hören",
+        "translation": "to hear"
+      },
+      {
+        "id": 11,
+        "name": "spielen",
+        "translation": "to play"
+      },
+      {
+        "id": 12,
+        "name": "arbeiten",
+        "translation": "to work"
+      },
+      {
+        "id": 13,
+        "name": "fahren",
+        "translation": "to drive"
+      },
+      {
+        "id": 14,
+        "name": "lernen",
+        "translation": "to learn"
+      },
+      {
+        "id": 15,
+        "name": "denken",
+        "translation": "to think"
       }
     ],
     "nouns": [
@@ -24,6 +89,84 @@
         "article": "der",
         "name": "Hund",
         "translation": "dog"
+      },
+      {
+        "id": 3,
+        "article": "das",
+        "name": "Haus",
+        "translation": "house"
+      },
+      {
+        "id": 4,
+        "article": "die",
+        "name": "Blume",
+        "translation": "flower"
+      },
+      {
+        "id": 5,
+        "article": "der",
+        "name": "Baum",
+        "translation": "tree"
+      },
+      {
+        "id": 6,
+        "article": "das",
+        "name": "Auto",
+        "translation": "car"
+      },
+      {
+        "id": 7,
+        "article": "die",
+        "name": "Straße",
+        "translation": "street"
+      },
+      {
+        "id": 8,
+        "article": "der",
+        "name": "Tisch",
+        "translation": "table"
+      },
+      {
+        "id": 9,
+        "article": "der",
+        "name": "Stuhl",
+        "translation": "chair"
+      },
+      {
+        "id": 10,
+        "article": "das",
+        "name": "Buch",
+        "translation": "book"
+      },
+      {
+        "id": 11,
+        "article": "die",
+        "name": "Lampe",
+        "translation": "lamp"
+      },
+      {
+        "id": 12,
+        "article": "der",
+        "name": "Fenster",
+        "translation": "window"
+      },
+      {
+        "id": 13,
+        "article": "die",
+        "name": "Tür",
+        "translation": "door"
+      },
+      {
+        "id": 14,
+        "article": "das",
+        "name": "Kind",
+        "translation": "child"
+      },
+      {
+        "id": 15,
+        "article": "der",
+        "name": "Mensch",
+        "translation": "person"
       }
     ],
     "adjectives": [
@@ -36,6 +179,71 @@
         "id": 2,
         "name": "langsam",
         "translation": "slow"
+      },
+      {
+        "id": 3,
+        "name": "schön",
+        "translation": "beautiful"
+      },
+      {
+        "id": 4,
+        "name": "hässlich",
+        "translation": "ugly"
+      },
+      {
+        "id": 5,
+        "name": "groß",
+        "translation": "big"
+      },
+      {
+        "id": 6,
+        "name": "klein",
+        "translation": "small"
+      },
+      {
+        "id": 7,
+        "name": "neu",
+        "translation": "new"
+      },
+      {
+        "id": 8,
+        "name": "alt",
+        "translation": "old"
+      },
+      {
+        "id": 9,
+        "name": "warm",
+        "translation": "warm"
+      },
+      {
+        "id": 10,
+        "name": "kalt",
+        "translation": "cold"
+      },
+      {
+        "id": 11,
+        "name": "hell",
+        "translation": "bright"
+      },
+      {
+        "id": 12,
+        "name": "dunkel",
+        "translation": "dark"
+      },
+      {
+        "id": 13,
+        "name": "laut",
+        "translation": "loud"
+      },
+      {
+        "id": 14,
+        "name": "leise",
+        "translation": "quiet"
+      },
+      {
+        "id": 15,
+        "name": "freundlich",
+        "translation": "friendly"
       }
     ]
   }
