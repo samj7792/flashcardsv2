@@ -10,19 +10,19 @@ import Header from "../components/Header";
 export default function Topic() {
   const location = useLocation();
   const topicName = location.pathname.split("/").pop();
-  console.log(`Current topic: ${topicName}`);
 
   // Extract topic data based on the topic name
   const topicData = data.topics[topicName as keyof typeof data.topics] || [];
-  console.log(`Topic data:`, topicData);
-  console.log(topicData.length);
   return (
     <div className="App">
       <Header />
       <div className="App-body">
         <h2>{topicName ? topicName.toUpperCase() : "Select a Topic"}</h2>
         {topicData.length > 0 ? (
-          <QuizLayout topicDatas={topicData as TopicData[]} />
+          <QuizLayout
+            topicName={topicName}
+            topicDatas={topicData as TopicData[]}
+          />
         ) : (
           <p>No data available for this topic.</p>
         )}

@@ -17,14 +17,11 @@ export type TopicData = {
 export default function Homepage() {
   const [topics, setTopics] = useState(Object.keys(data.topics));
   const [topicDatas, setTopicDatas] = useState<TopicData[] | null>(null);
-  console.log(`topics`, topics);
 
   const handleTopicClick = (topic: string) => {
     const topicData = data.topics[topic as TopicKey];
-    console.log(`Selected topic data:`, topicData);
 
     setTopicDatas(topicData);
-    console.log(`topicDatas`, topicDatas);
   };
 
   return (
@@ -34,7 +31,7 @@ export default function Homepage() {
         <div className="Card-container">
           {!topicDatas && (
             <>
-              <h3>Topics</h3>
+              <h2>Topics</h2>
               {topics.map((topic, index) => (
                 <Link
                   key={index}
