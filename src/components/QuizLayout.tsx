@@ -48,11 +48,16 @@ export default function QuizLayout({ topicDatas, topicName }: QuizLayoutProps) {
       <div className="Quiz-container">
         {currentCard ? (
           topicName === "nouns" ? (
-            <NounLayout currentCard={currentCard} />
+            <Card
+              key={currentCard.id}
+              onClick={() => handleCardClick(currentCard)}
+            >
+              <NounLayout currentCard={currentCard} />
+              {translation ? translation : currentCard.name}
+            </Card>
           ) : (
             <Card
               key={currentCard.id}
-              className="QuizCard--on"
               onClick={() => handleCardClick(currentCard)}
             >
               {translation ? translation : currentCard.name}

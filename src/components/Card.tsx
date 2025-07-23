@@ -2,16 +2,18 @@ import React from "react";
 
 type CardProps = {
   children?: React.ReactNode;
-  onClick?: () => void;
+  onClick?: (event: any) => void;
   onHover?: () => void;
   className?: string;
   class?: string;
+  style?: React.CSSProperties;
+  id?: string;
 };
 
-export default function Card({ children, onClick }: CardProps) {
+export default function Card({ children, onClick, className }: CardProps) {
   return (
-    <div className="Card" onClick={onClick}>
-      <h3>{children}</h3>
+    <div className={className ? className : "Card"} onClick={onClick}>
+      <h4>{children}</h4>
     </div>
   );
 }
