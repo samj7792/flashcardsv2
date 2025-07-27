@@ -13,7 +13,7 @@ type CardProps = {
 export default function Card({ children, onClick, className }: CardProps) {
   return (
     <div className={className ? className : "Card"} onClick={onClick}>
-      <h4>{children}</h4>
+      <strong>{children}</strong>
     </div>
   );
 }
