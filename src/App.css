@@ -51,7 +51,9 @@
   cursor: pointer;
 }
 
-.Card:hover {
+.Card:hover,
+.Article:hover,
+.Progress:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transform: translateY(-2px) translateX(-1px);
   background-color: rgb(101, 114, 124);
@@ -76,16 +78,37 @@
 }
 
 .Article.correct {
-  background-color: green;
+  background-color: rgb(24, 114, 24);
 }
 
 .Article.incorrect {
-  background-color: red;
+  background-color: rgb(196, 15, 15);
 }
 
-.Article .Article.correct .Article.incorrect :hover  {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  transform: translateY(-2px) translateX(-1px);
-  background-color: rgb(101, 114, 124);
-  transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+.Article.incorrect:hover {
+  background-color: rgb(196, 15, 15, 0.8);
+}
+
+.Article.correct:hover {
+  background-color: rgba(24, 114, 24, 0.8);
+}
+
+.ProgressButtons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 8px;
+} 
+
+.Progress {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(68, 81, 91);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
 }

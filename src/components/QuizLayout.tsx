@@ -17,11 +17,9 @@ export default function QuizLayout({ topicDatas, topicName }: QuizLayoutProps) {
       ? quizData[Math.floor(Math.random() * quizData.length)]
       : null
   );
-  console.log(`Quiz data:`, quizData);
 
   // on click show the translation of the card
   const handleCardClick = (data: TopicData) => {
-    console.log(`Card clicked:`, data);
     if (!clicked) {
       setTranslation(data.translation);
       setClicked(true);
@@ -39,7 +37,6 @@ export default function QuizLayout({ topicDatas, topicName }: QuizLayoutProps) {
       } else {
         setCurrentCard(null);
       }
-      console.log(`Updated quiz data:`, updatedQuizData);
     }
   };
 
@@ -58,7 +55,14 @@ export default function QuizLayout({ topicDatas, topicName }: QuizLayoutProps) {
               key={currentCard.id}
               onClick={() => handleCardClick(currentCard)}
             >
-              {translation ? translation : currentCard.name}
+              {translation ? (
+                <>
+                  {translation}
+                  <button>hi</button>
+                </>
+              ) : (
+                currentCard.name
+              )}
             </Card>
           )
         ) : (

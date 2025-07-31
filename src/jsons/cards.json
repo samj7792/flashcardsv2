@@ -80,15 +80,15 @@
     "nouns": [
       {
         "id": 1,
-        "article": "die",
-        "name": "Katze",
-        "translation": "cat"
+        "article": "der",
+        "name": "Tisch",
+        "translation": "table"
       },
       {
         "id": 2,
-        "article": "der",
-        "name": "Hund",
-        "translation": "dog"
+        "article": "die",
+        "name": "Blume",
+        "translation": "flower"
       },
       {
         "id": 3,
@@ -98,15 +98,15 @@
       },
       {
         "id": 4,
-        "article": "die",
-        "name": "Blume",
-        "translation": "flower"
+        "article": "der",
+        "name": "Stuhl",
+        "translation": "chair"
       },
       {
         "id": 5,
-        "article": "der",
-        "name": "Baum",
-        "translation": "tree"
+        "article": "die",
+        "name": "Katze",
+        "translation": "cat"
       },
       {
         "id": 6,
@@ -116,27 +116,27 @@
       },
       {
         "id": 7,
-        "article": "die",
-        "name": "Straße",
-        "translation": "street"
+        "article": "der",
+        "name": "Hund",
+        "translation": "dog"
       },
       {
         "id": 8,
-        "article": "der",
-        "name": "Tisch",
-        "translation": "table"
+        "article": "die",
+        "name": "Uhr",
+        "translation": "clock"
       },
       {
         "id": 9,
-        "article": "der",
-        "name": "Stuhl",
-        "translation": "chair"
-      },
-      {
-        "id": 10,
         "article": "das",
         "name": "Buch",
         "translation": "book"
+      },
+      {
+        "id": 10,
+        "article": "der",
+        "name": "Baum",
+        "translation": "tree"
       },
       {
         "id": 11,
@@ -146,27 +146,537 @@
       },
       {
         "id": 12,
-        "article": "der",
+        "article": "das",
         "name": "Fenster",
         "translation": "window"
       },
       {
         "id": 13,
-        "article": "die",
-        "name": "Tür",
-        "translation": "door"
+        "article": "der",
+        "name": "Computer",
+        "translation": "computer"
       },
       {
         "id": 14,
+        "article": "die",
+        "name": "Tasche",
+        "translation": "bag"
+      },
+      {
+        "id": 15,
+        "article": "das",
+        "name": "Telefon",
+        "translation": "phone"
+      },
+      {
+        "id": 16,
+        "article": "der",
+        "name": "Löffel",
+        "translation": "spoon"
+      },
+      {
+        "id": 17,
+        "article": "die",
+        "name": "Gabel",
+        "translation": "fork"
+      },
+      {
+        "id": 18,
+        "article": "das",
+        "name": "Messer",
+        "translation": "knife"
+      },
+      {
+        "id": 19,
+        "article": "der",
+        "name": "Schrank",
+        "translation": "cupboard"
+      },
+      {
+        "id": 20,
+        "article": "die",
+        "name": "Tasse",
+        "translation": "cup"
+      },
+      {
+        "id": 21,
+        "article": "das",
+        "name": "Bild",
+        "translation": "picture"
+      },
+      {
+        "id": 22,
+        "article": "der",
+        "name": "Zug",
+        "translation": "train"
+      },
+      {
+        "id": 23,
+        "article": "die",
+        "name": "Straße",
+        "translation": "street"
+      },
+      {
+        "id": 24,
+        "article": "das",
+        "name": "Flugzeug",
+        "translation": "airplane"
+      },
+      {
+        "id": 25,
+        "article": "der",
+        "name": "Fisch",
+        "translation": "fish"
+      },
+      {
+        "id": 26,
+        "article": "die",
+        "name": "Ente",
+        "translation": "duck"
+      },
+      {
+        "id": 27,
+        "article": "das",
+        "name": "Ei",
+        "translation": "egg"
+      },
+      {
+        "id": 28,
+        "article": "der",
+        "name": "Apfel",
+        "translation": "apple"
+      },
+      {
+        "id": 29,
+        "article": "die",
+        "name": "Banane",
+        "translation": "banana"
+      },
+      {
+        "id": 30,
+        "article": "das",
+        "name": "Brot",
+        "translation": "bread"
+      },
+      {
+        "id": 31,
+        "article": "der",
+        "name": "Käse",
+        "translation": "cheese"
+      },
+      {
+        "id": 32,
+        "article": "die",
+        "name": "Milch",
+        "translation": "milk"
+      },
+      {
+        "id": 33,
+        "article": "das",
+        "name": "Wasser",
+        "translation": "water"
+      },
+      {
+        "id": 34,
+        "article": "der",
+        "name": "Saft",
+        "translation": "juice"
+      },
+      {
+        "id": 35,
+        "article": "die",
+        "name": "Flasche",
+        "translation": "bottle"
+      },
+      {
+        "id": 36,
+        "article": "das",
+        "name": "Glas",
+        "translation": "glass"
+      },
+      {
+        "id": 37,
+        "article": "der",
+        "name": "Stift",
+        "translation": "pen"
+      },
+      {
+        "id": 38,
+        "article": "die",
+        "name": "Karte",
+        "translation": "map"
+      },
+      {
+        "id": 39,
+        "article": "das",
+        "name": "Heft",
+        "translation": "notebook"
+      },
+      {
+        "id": 40,
+        "article": "der",
+        "name": "Brief",
+        "translation": "letter"
+      },
+      {
+        "id": 41,
+        "article": "die",
+        "name": "Zeitung",
+        "translation": "newspaper"
+      },
+      {
+        "id": 42,
+        "article": "das",
+        "name": "Magazin",
+        "translation": "magazine"
+      },
+      {
+        "id": 43,
+        "article": "der",
+        "name": "Lehrer",
+        "translation": "teacher (male)"
+      },
+      {
+        "id": 44,
+        "article": "die",
+        "name": "Lehrerin",
+        "translation": "teacher (female)"
+      },
+      {
+        "id": 45,
         "article": "das",
         "name": "Kind",
         "translation": "child"
       },
       {
-        "id": 15,
+        "id": 46,
         "article": "der",
-        "name": "Mensch",
-        "translation": "person"
+        "name": "Mann",
+        "translation": "man"
+      },
+      {
+        "id": 47,
+        "article": "die",
+        "name": "Frau",
+        "translation": "woman"
+      },
+      {
+        "id": 48,
+        "article": "das",
+        "name": "Baby",
+        "translation": "baby"
+      },
+      {
+        "id": 49,
+        "article": "der",
+        "name": "Arzt",
+        "translation": "doctor (male)"
+      },
+      {
+        "id": 50,
+        "article": "die",
+        "name": "Ärztin",
+        "translation": "doctor (female)"
+      },
+      {
+        "id": 51,
+        "article": "das",
+        "name": "Krankenhaus",
+        "translation": "hospital"
+      },
+      {
+        "id": 52,
+        "article": "der",
+        "name": "Polizist",
+        "translation": "policeman"
+      },
+      {
+        "id": 53,
+        "article": "die",
+        "name": "Polizistin",
+        "translation": "policewoman"
+      },
+      {
+        "id": 54,
+        "article": "das",
+        "name": "Feuer",
+        "translation": "fire"
+      },
+      {
+        "id": 55,
+        "article": "der",
+        "name": "Bus",
+        "translation": "bus"
+      },
+      {
+        "id": 56,
+        "article": "die",
+        "name": "Haltestelle",
+        "translation": "bus stop"
+      },
+      {
+        "id": 57,
+        "article": "das",
+        "name": "Taxi",
+        "translation": "taxi"
+      },
+      {
+        "id": 58,
+        "article": "der",
+        "name": "LKW",
+        "translation": "truck"
+      },
+      {
+        "id": 59,
+        "article": "die",
+        "name": "Bäckerei",
+        "translation": "bakery"
+      },
+      {
+        "id": 60,
+        "article": "das",
+        "name": "Restaurant",
+        "translation": "restaurant"
+      },
+      {
+        "id": 61,
+        "article": "der",
+        "name": "Kellner",
+        "translation": "waiter"
+      },
+      {
+        "id": 62,
+        "article": "die",
+        "name": "Kellnerin",
+        "translation": "waitress"
+      },
+      {
+        "id": 63,
+        "article": "das",
+        "name": "Menü",
+        "translation": "menu"
+      },
+      {
+        "id": 64,
+        "article": "der",
+        "name": "Park",
+        "translation": "park"
+      },
+      {
+        "id": 65,
+        "article": "die",
+        "name": "Bank",
+        "translation": "bank"
+      },
+      {
+        "id": 66,
+        "article": "das",
+        "name": "Geld",
+        "translation": "money"
+      },
+      {
+        "id": 67,
+        "article": "der",
+        "name": "Supermarkt",
+        "translation": "supermarket"
+      },
+      {
+        "id": 68,
+        "article": "die",
+        "name": "Küche",
+        "translation": "kitchen"
+      },
+      {
+        "id": 69,
+        "article": "das",
+        "name": "Badezimmer",
+        "translation": "bathroom"
+      },
+      {
+        "id": 70,
+        "article": "der",
+        "name": "Garten",
+        "translation": "garden"
+      },
+      {
+        "id": 71,
+        "article": "die",
+        "name": "Garage",
+        "translation": "garage"
+      },
+      {
+        "id": 72,
+        "article": "das",
+        "name": "Zimmer",
+        "translation": "room"
+      },
+      {
+        "id": 73,
+        "article": "der",
+        "name": "Boden",
+        "translation": "floor"
+      },
+      {
+        "id": 74,
+        "article": "die",
+        "name": "Decke",
+        "translation": "ceiling/blanket"
+      },
+      {
+        "id": 75,
+        "article": "das",
+        "name": "Dach",
+        "translation": "roof"
+      },
+      {
+        "id": 76,
+        "article": "der",
+        "name": "Hut",
+        "translation": "hat"
+      },
+      {
+        "id": 77,
+        "article": "die",
+        "name": "Jacke",
+        "translation": "jacket"
+      },
+      {
+        "id": 78,
+        "article": "das",
+        "name": "Hemd",
+        "translation": "shirt"
+      },
+      {
+        "id": 79,
+        "article": "der",
+        "name": "Schuh",
+        "translation": "shoe"
+      },
+      {
+        "id": 80,
+        "article": "die",
+        "name": "Hose",
+        "translation": "pants"
+      },
+      {
+        "id": 81,
+        "article": "das",
+        "name": "Kleid",
+        "translation": "dress"
+      },
+      {
+        "id": 82,
+        "article": "der",
+        "name": "Ring",
+        "translation": "ring"
+      },
+      {
+        "id": 83,
+        "article": "die",
+        "name": "Kette",
+        "translation": "necklace"
+      },
+      {
+        "id": 84,
+        "article": "das",
+        "name": "Armband",
+        "translation": "bracelet"
+      },
+      {
+        "id": 85,
+        "article": "der",
+        "name": "Tag",
+        "translation": "day"
+      },
+      {
+        "id": 86,
+        "article": "die",
+        "name": "Nacht",
+        "translation": "night"
+      },
+      {
+        "id": 87,
+        "article": "das",
+        "name": "Jahr",
+        "translation": "year"
+      },
+      {
+        "id": 88,
+        "article": "der",
+        "name": "Monat",
+        "translation": "month"
+      },
+      {
+        "id": 89,
+        "article": "die",
+        "name": "Woche",
+        "translation": "week"
+      },
+      {
+        "id": 90,
+        "article": "das",
+        "name": "Wochenende",
+        "translation": "weekend"
+      },
+      {
+        "id": 91,
+        "article": "der",
+        "name": "Frühling",
+        "translation": "spring"
+      },
+      {
+        "id": 92,
+        "article": "die",
+        "name": "Sonne",
+        "translation": "sun"
+      },
+      {
+        "id": 93,
+        "article": "das",
+        "name": "Wetter",
+        "translation": "weather"
+      },
+      {
+        "id": 94,
+        "article": "der",
+        "name": "Regen",
+        "translation": "rain"
+      },
+      {
+        "id": 95,
+        "article": "die",
+        "name": "Wolke",
+        "translation": "cloud"
+      },
+      {
+        "id": 96,
+        "article": "das",
+        "name": "Gewitter",
+        "translation": "storm"
+      },
+      {
+        "id": 97,
+        "article": "der",
+        "name": "Schnee",
+        "translation": "snow"
+      },
+      {
+        "id": 98,
+        "article": "die",
+        "name": "Blume",
+        "translation": "flower"
+      },
+      {
+        "id": 99,
+        "article": "das",
+        "name": "Gras",
+        "translation": "grass"
+      },
+      {
+        "id": 100,
+        "article": "der",
+        "name": "Vogel",
+        "translation": "bird"
       }
     ],
     "adjectives": [

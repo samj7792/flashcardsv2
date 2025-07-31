@@ -1,6 +1,7 @@
 import Card from "./Card";
 import Articles from "./Articles";
 import { useEffect, useState } from "react";
+import Progress from "./Progress";
 
 type NounLayoutProps = {
   currentCard: {
@@ -38,7 +39,14 @@ export default function NounLayout({
         onCorrect={() => setIsCorrect(true)}
       />
       <br />
-      {translation ? translation : currentCard.name}
+      {translation ? (
+        <>
+          {translation}
+          <Progress currentCardId={currentCard.id} />
+        </>
+      ) : (
+        currentCard.name
+      )}
     </Card>
   );
 }
